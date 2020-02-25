@@ -71,7 +71,7 @@ pub use walk::{
 };
 
 mod default_types;
-mod dir;
+pub mod dir;
 pub mod gitignore;
 pub mod overrides;
 mod pathutil;
