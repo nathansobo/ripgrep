@@ -347,7 +347,7 @@ impl Ignore {
     /// ignored or not.
     ///
     /// The match contains information about its origin.
-    fn matched<'a, P: AsRef<Path>>(
+    pub fn matched<'a, P: AsRef<Path>>(
         &'a self,
         path: P,
         is_dir: bool,
